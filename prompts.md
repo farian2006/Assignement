@@ -1,0 +1,1 @@
+Create a ‘Venue’ section for a conference website using only HTML and CSS. Include a centered heading, a large venue image on the left, and a stylish information card on the right with the venue name, location, a short description, and a ‘View Map’ button.
