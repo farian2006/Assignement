@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
 /* Common Style */
 
@@ -36,6 +37,7 @@ header{
     color: white;
     border: none;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 /* List Style */
@@ -71,6 +73,7 @@ ul li a{
     padding: 0px 20px;
 }
 .data h2{
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 70px;
 }
