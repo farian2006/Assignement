@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Common Style */
+
+.common-style{
+    max-width: 1200px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Navbar Style */
+.navigation{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 0px;
+}
+
+header{
+    background-color: white;
+}
+
+/* Common Button Style */
+.common-btn{
+    background-color: #1D4ED8;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* List Style */
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    list-style: none;
+    align-items: center;
+}
+ul li a{
+    font-size: 23px;
+    color: #575757;
+    text-decoration: none;
+}
