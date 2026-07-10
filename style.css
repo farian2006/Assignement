@@ -17,12 +17,14 @@ img{
 .navigation{
     display: flex;
     justify-content:space-between;
+    align-items: center;
     padding: 20px 0px;
 }
 
 header{
     background-color: white;
 }
+
 
 /* Common Button Style */
 .common-btn{
@@ -202,6 +204,58 @@ button{
 }
 hr{
     margin-top: 20px;
+}
+
+/* Venue Section Style */
+.venue{
+    padding: 50px 0px;
+    background-color:antiquewhite;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-radius: 12px;
+    padding: 30px;
+    gap:2rem;
+    
+}
+.venue h2{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom:10px;
+    font-size: 40px;
+}
+.venue-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.info-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid skyblue;
+    border-radius: 16px;
+    color: aliceblue;
+    background-color: #0D1B2A;
+}
+i{
+    margin-bottom: 10px;
+}
+.map{
+    border: #93C5FD;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    background: skyblue;
+    margin-bottom:10px ;
 }
 /* Footer Section Style */
 .foot{
