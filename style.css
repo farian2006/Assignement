@@ -27,10 +27,10 @@ header{
 /* Common Button Style */
 .common-btn{
     background-color: #1D4ED8;
-    padding: 12px;
+    padding: 12px 28px;
     border-radius: 12px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1rem;
     color: white;
     border: none;
     cursor: pointer;
@@ -48,4 +48,36 @@ ul li a{
     font-size: 23px;
     color: #575757;
     text-decoration: none;
+}
+
+/* Hero Section Style */
+.hero-root{
+    display: flex;
+    justify-content: center;
+    background-image:   linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    color:#FFFFFF;
+}
+.data{
+    text-align: center;
+    max-width: 700px;
+    padding: 0px 20px;
+}
+.data h2{
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.data p{
+  margin-bottom: 220px;
+  line-height: 1.6;
+  font-size: 22px ;
+}
+.large{
+    padding: 35px 25px;
+    font-size: 2rem;
 }
