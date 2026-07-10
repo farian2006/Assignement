@@ -203,3 +203,29 @@ button{
 hr{
     margin-top: 20px;
 }
+/* Footer Section Style */
+.foot{
+    background: #0b1220;
+    color: #fff;
+    padding: 8px 0px;
+}
+.foot-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+}
+.copyright{
+    text-align: center;
+    font-size: .95rem;
+    margin-bottom: 12px;
+}
+hr{
+    margin: 12px;
+}
+i{
+    font-size: 25px;
+}
+img{
+    font-size: 25px;
+}
